@@ -10,10 +10,11 @@
 
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition x:Name="playArea" Width="100*"/> 
+            <ColumnDefinition x:Name="playArea" Width="100*"/>
         </Grid.ColumnDefinitions>
-
-        <Rectangle Grid.Column="1"
-                   Fill="#fff3e0"/>
+        <Canvas x:Name="imageArea"
+                Background="#443475"
+                Tapped ="AddImage">
+        </Canvas>
     </Grid>
 </Page>
