@@ -15,6 +15,11 @@
         <Canvas x:Name="imageArea"
                 Background="#443475"
                 Tapped ="AddImage">
+            <Image  x:Name="mouseImage"
+                    Source="ms-appx:///Assets/mousel.png"
+                    Height="50"
+                    Width="50"
+                    />
         </Canvas>
     </Grid>
 </Page>
